@@ -26,7 +26,6 @@ body{
 	grid-template-rows: 1fr 70px;
 }
 .container > div{
-	border: 1px solid #000000;
 
 }
 .grid-note-resume{
@@ -98,11 +97,16 @@ body{
 	padding: 0 30px 30px;
 	visibility: hidden;
 	transition: transform 0.4s, top 0.4s;
+	border: 3px solid rgb(43, 43, 43);
 }
 .open-popup{
 	visibility: visible;
 	top: 50%;
 	transform: translate(-50%, -50%) scale(1);
+}
+.header-box{
+	background-color: #1f1f1f;
+	border-radius: 4px 4px 4px 4px;
 }
 .h2note{
 	font-size: 30px;
@@ -125,6 +129,8 @@ body{
 	font-size: 13px;
 	font-weight: 900;
 	outline: none;
+	padding: 4px 4px;
+	font-family: 'Poppins', sans-serif;
 }
 .title-input:focus{
 	border: 2px solid antiquewhite;
@@ -141,6 +147,8 @@ body{
 	font-weight: 900;
 	resize: none;
 	outline: none;
+	padding: 4px 4px;
+	font-family: 'Poppins', sans-serif;
 }
 .text-input:focus{
 	border: 2px solid antiquewhite;
