@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body{
+	background-color: #3b3b3b;
+	color: white;
+	margin: 0;
+	-moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.container{
+	width: 100vw;
+	height: 100vh;
+
+	font-family: 'Poppins', sans-serif;
+	font-weight: 900;
+	font-size: 20px;
+
+	display: grid;
+
+	grid-template-columns: 1fr 5px 120px 5px 1fr;
+	grid-template-rows: 1fr 70px;
+}
+.container > div{
+	border: 1px solid #000000;
+
+}
+.grid-note-resume{
+	grid-column-start: 1;
+	grid-column-end: 5;
+}
+.grid-note-preview{
+	grid-column-start: 5;
+	grid-column-end: 6;
+}
+.grid-tool-bar1{
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+.toolbar1{
+	height: 100%;
+	width: 100%;
+	background: #313131;
+	border-radius: 0 30px 0 0;
+}
+.button1{
+	background: #000000;
+	height: 50px;
+	width: 50px;
+}
+.grid-tool-bar2{
+	grid-column-start: 5;
+	grid-column-end: 6;
+}
+.toolbar2{
+	height: 100%;
+	width: 100%;
+	background: #313131;
+	border-radius: 30px 0 0 0;
+}
+.grid-add-note{
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+.under-plus{
+	background-color: #313131;
+	margin: auto;
+	height: 100%;
+	border-radius: 40px 40px 0px 0px;
+}
+.plus{
+	color: #313131;
+	position: relative;
+	font-size: 27.5px;
+	top: 25%;
+	margin: auto;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	background-color: #a1a1a1;
+	border-radius: 90px 90px 90px 90px;
+	cursor: pointer;
+}
+.popup{
+	color: antiquewhite;
+	width: 400px;
+	background: #2e2e2e;
+	border-radius: 6px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -150%) scale(0.1);
+	text-align: center;
+	padding: 0 30px 30px;
+	visibility: hidden;
+	transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+	visibility: visible;
+	top: 50%;
+	transform: translate(-50%, -50%) scale(1);
+}
+.h2note{
+	font-size: 30px;
+	margin: -22px 0 10px;
+	font-weight: 900;
+	text-shadow: 3px 3px #131313;
+}
+.pnote{
+	padding-top: 10px;
+	margin-bottom: 5px;
+	font-size: 20px;
+	font-weight: 900;
+}
+.title-input{
+	background: #727272;
+	color: antiquewhite;
+	border: 2px solid #727272;
+	width: 50%;
+	border-radius: 10px 10px 10px 10px;
+	font-size: 13px;
+	font-weight: 900;
+	outline: none;
+}
+.title-input:focus{
+	border: 2px solid antiquewhite;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.text-input{
+	background: #727272;
+	color: antiquewhite;
+	border: 2px solid #727272;
+	width: 50%;
+	height: 150px;
+	border-radius: 10px 10px 10px 10px;
+	font-size: 13px;
+	font-weight: 900;
+	resize: none;
+	outline: none;
+}
+.text-input:focus{
+	border: 2px solid antiquewhite;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.create-note-button{
+	width: 60%;
+	margin-top: 50px;
+	padding: 10px 0;
+	background: #505050;
+	color: antiquewhite;
+	border: 0;
+	outline: none;
+	font-size: 18px;
+	font-weight: 900;
+	border-radius: 4px;
+	cursor: pointer;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+@keyframes homezoom{
+	0%{height: 50px; width: 50px;}
+	20%{height: 51px; width: 51px;}
+	40%{height: 52px; width: 52px;}
+	60%{height: 53px; width: 53px;}
+	80%{height: 54px; width: 54px;}
+	100%{height: 55px; width: 55px;}
+}
+/*.examplebox{
+	height: 100px;
+	width: 100px;
+	margin: 120px auto auto 418px;
+	background-color: aliceblue;
+	animation-name: myanimation;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	position: relative;
+}
+
+
+@keyframes myanimation {
+	0% {background-color: white; left: 0px; top: 0px; border-radius: 50% 0 0 0;}
+	25% {background-color: red; left: 300px; top: 0px; border-radius: 0 50% 0 0 ;}
+	50% {background-color: green; left: 300px; top: 300px; border-radius: 0  0 50% 0;}
+	75% {background-color: blue; left: 0px; top: 300px; border-radius: 0 0 0 50%;}
+	100% {background-color: aliceblue; left: 0px; top: 0px; border-radius: 50% 0 0 0;}
+}*/
+
