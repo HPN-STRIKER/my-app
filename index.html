@@ -11,9 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
     <div class="container">
         <div class="grid-note-resume">
-            <div class="notes-box"></div>
+            <div class="notes-box">
+                <h2>CLICK THE + BUTTON<br>TO ADD A NOTE</h2>
+            </div>
         </div>
-        <div class="grid-note-preview">Note preview</div>
+        <div class="grid-note-preview">
+            <div class="detail-box"></div>
+        </div>
         <div class="grid-tool-bar1">
             <div class="toolbar1">
                 <div class="button1"></div>
@@ -31,9 +35,9 @@
                 <h2 class="h2note">CREATE A NEW NOTE<h2>
             </div>
             <p class="pnote">TITLE:</p>
-            <input class="title-input">
+            <input class="title-input" name="title-input">
             <p class="pnote">TEXT:</p>
-            <textarea class="text-input"></textarea>
+            <textarea class="text-input" name="text-input"></textarea>
             <button class="create-note-button" id="create-note" onclick="closePopup()">CREATE</button>
         </div>
         <div class="grid-tool-bar2">

@@ -1,7 +1,19 @@
 @charset "utf-8";
 
-/* CSS Document */
-
+::-webkit-scrollbar {
+	width: 7px;
+}
+::-webkit-scrollbar-track {
+	background: #575454; 
+	border-radius: 0 10px 10px 0;
+}
+::-webkit-scrollbar-thumb {
+	background: #424242; 
+	border-radius: 90px 90px 90px 90px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #333333; 
+}
 body{
 	background-color: #3b3b3b;
 	color: white;
@@ -23,22 +35,42 @@ body{
 	display: grid;
 
 	grid-template-columns: 1fr 5px 120px 5px 1fr;
-	grid-template-rows: 1fr 70px;
+	grid-template-rows: 1fr 20px 70px;
 }
 .container > div{
 
 }
 .grid-note-resume{
 	grid-column-start: 1;
-	grid-column-end: 5;
+	grid-column-end: 4;
+	grid-row-end: 2;
+}
+.notes-box{
+	height: 100%;
+	width: 100%;
+	margin-left: 0;
+	background: #424242;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #3b3b3b;
 }
 .grid-note-preview{
 	grid-column-start: 5;
 	grid-column-end: 6;
+	grid-row-end: 2;
+}
+.detail-box{
+	height: 100%;
+	width: 100%;
+	background: #424242;
 }
 .grid-tool-bar1{
 	grid-column-start: 1;
 	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
 }
 .toolbar1{
 	height: 100%;
@@ -54,6 +86,8 @@ body{
 .grid-tool-bar2{
 	grid-column-start: 5;
 	grid-column-end: 6;
+	grid-row-start: 3;
+	grid-row-end: 4;
 }
 .toolbar2{
 	height: 100%;
@@ -64,6 +98,8 @@ body{
 .grid-add-note{
 	grid-column-start: 3;
 	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 4;
 }
 .under-plus{
 	background-color: #313131;
@@ -123,7 +159,7 @@ body{
 .title-input{
 	background: #727272;
 	color: antiquewhite;
-	border: 2px solid #727272;
+	border: 3px solid #727272;
 	width: 50%;
 	border-radius: 10px 10px 10px 10px;
 	font-size: 13px;
@@ -133,13 +169,13 @@ body{
 	font-family: 'Poppins', sans-serif;
 }
 .title-input:focus{
-	border: 2px solid antiquewhite;
+	border: 3px solid antiquewhite;
 	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 .text-input{
 	background: #727272;
 	color: antiquewhite;
-	border: 2px solid #727272;
+	border: 3px solid #727272;
 	width: 50%;
 	height: 150px;
 	border-radius: 10px 10px 10px 10px;
@@ -151,7 +187,7 @@ body{
 	font-family: 'Poppins', sans-serif;
 }
 .text-input:focus{
-	border: 2px solid antiquewhite;
+	border: 3px solid antiquewhite;
 	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 .create-note-button{
