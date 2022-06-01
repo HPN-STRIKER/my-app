@@ -69,6 +69,11 @@ body{
 	height: 100%;
 	width: 100%;
 	background: #424242;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #3b3b3b;
 }
 .grid-tool-bar1{
 	grid-column-start: 1;
@@ -234,4 +239,3 @@ body{
 	75% {background-color: blue; left: 0px; top: 300px; border-radius: 0 0 0 50%;}
 	100% {background-color: aliceblue; left: 0px; top: 0px; border-radius: 50% 0 0 0;}
 }*/
-

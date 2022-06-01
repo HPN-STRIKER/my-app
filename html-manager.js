@@ -12,8 +12,8 @@ var emptyLeftBox = document.getElementById('leftBox').innerHTML === "";
 let leftBox = document.getElementById("leftBox")
 
 if(emptyLeftBox){
-    leftBox.classList.remove("not-empty-left-box");
+    leftBox.classList.add("not-empty-left-box");
 }
 else{
-    leftBox.classList.add("not-empty-left-box");
+    leftBox.classList.remove("not-empty-left-box");
 }
