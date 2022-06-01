@@ -90,6 +90,12 @@ body{
 .button1{
 	height: 50px;
 	width: 50px;
+	background-color: #000000;
+}
+.button2{
+	height: 50px;
+	width: 50px;
+	background-color: #000000;
 }
 .grid-tool-bar2{
 	grid-column-start: 5;
