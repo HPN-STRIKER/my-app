@@ -11,4 +11,4 @@ app.whenReady().then(() => {
     myWindow.loadFile('index.html');
 });
 
-console.log("sfondamento");
+console.log("cinese");
