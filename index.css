@@ -28,13 +28,10 @@ body{
 .container{
 	width: 100vw;
 	height: 100vh;
-
 	font-family: 'Poppins', sans-serif;
 	font-weight: 900;
 	font-size: 20px;
-
 	display: grid;
-
 	grid-template-columns: 1fr 5px 120px 5px 1fr;
 	grid-template-rows: 1fr 20px 70px;
 }
@@ -54,8 +51,23 @@ body{
 	justify-content: center;
 	color: #3b3b3b;
 }
-.not-empty-left-box{
-	color: #424242;
+.not-empty-box{
+	visibility: hidden;
+}
+.left-box div{
+	width: 50px;
+	height: 50px;
+	background-color: #000000;
+}
+.test-note{
+	width: 100%;
+	margin-top: -400px;
+	margin-left: -70%;
+	margin-right: 10px;
+	background: #2e2e2e;
+	border-radius: 10px;
+	top: 5%;
+	left: 10%;
 }
 .grid-note-preview{
 	grid-column-start: 5;
@@ -84,6 +96,9 @@ body{
 	background: #313131;
 	border-radius: 0 30px 0 0;
 	text-align: center;
+}
+.toolbar1 div{
+	border-radius: 12px;
 }
 .button1{
 	float: left;
@@ -114,6 +129,9 @@ body{
 	grid-column-end: 6;
 	grid-row-start: 3;
 	grid-row-end: 4;
+}
+.toolbar2 div{
+	border-radius: 12px;
 }
 .toolbar2{
 	height: 100%;
@@ -162,7 +180,7 @@ body{
 	color: #313131;
 	position: relative;
 	font-size: 27.5px;
-	top: 25%;
+	top: 21%;
 	margin: auto;
 	width: 40px;
 	height: 40px;
