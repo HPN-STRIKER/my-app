@@ -24,8 +24,6 @@ function createNoteDiv(){
     
     if(notesCounter > 0){
         initMessage1.classList.add("not-empty-box");
-        initMessage2.classList.remove("not-empty-box");
-        leftBox.removeChild(initMessage1);
-        leftBox.classList.add();
+        initMessage2.classList.remove("not-empty-box")
     }
 }
