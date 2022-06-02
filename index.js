@@ -11,8 +11,6 @@ function closePopup() {
 var leftBox = document.getElementById("leftBox");
 var numberOfElementsLeft = leftBox.getElementsByTagName('*').length;
 
-console.log(numberOfElementsLeft);
-
 if(numberOfElementsLeft > 2){
     leftBox.classList.add("not-empty-left-box");
 }
