@@ -8,10 +8,12 @@ function closePopup() {
 }
 
 // Display "Click the + button to add a note"
-var emptyLeftBox = document.getElementById('leftBox').innerHTML === "";
-let leftBox = document.getElementById("leftBox")
+var leftBox = document.getElementById("leftBox");
+var numberOfElementsLeft = leftBox.getElementsByTagName('*').length;
 
-if(emptyLeftBox){
+console.log(numberOfElementsLeft);
+
+if(numberOfElementsLeft > 2){
     leftBox.classList.add("not-empty-left-box");
 }
 else{
