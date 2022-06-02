@@ -40,7 +40,7 @@ body{
 	grid-column-end: 4;
 	grid-row-end: 2;
 }
-.left-box{
+.left-box-init{
 	height: 100%;
 	width: 100%;
 	margin-left: 0;
@@ -51,11 +51,12 @@ body{
 	justify-content: center;
 	color: #3b3b3b;
 }
+
 .not-empty-box{
 	visibility: hidden;
 }
 .left-box div{
-	width: 50px;
+	width: 70%;
 	height: 50px;
 	background-color: #000000;
 }
