@@ -38,9 +38,6 @@ body{
 	grid-template-columns: 1fr 5px 120px 5px 1fr;
 	grid-template-rows: 1fr 20px 70px;
 }
-.container > div{
-
-}
 .grid-note-resume{
 	grid-column-start: 1;
 	grid-column-end: 4;
