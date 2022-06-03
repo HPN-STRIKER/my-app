@@ -51,27 +51,39 @@ body{
 	justify-content: center;
 	color: #3b3b3b;
 }
+.left-box-after{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: #424242;
+	text-align: center;
+}
 .not-empty-box{
 	visibility: hidden;
 }
-.left-box div{
-	width: 85%;
-	margin: 10px;
+.note-div{
+	height: 170px;
+	width: 90%;
+	margin-left: auto;
+	margin-top: 20px;
 	padding-left: 20px;
 	color: antiquewhite;
+	display: inline-block;
 	background-color: #333333;
 	border-radius: 12px;
 	text-align: left;
+
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	
+	
 }
-.test-note{
-	width: 100%;
-	margin-top: -400px;
-	margin-left: -70%;
-	margin-right: 10px;
-	background: #2e2e2e;
-	border-radius: 10px;
-	top: 5%;
-	left: 10%;
+.note-div h2{
+	font-size: 28px;
+}
+.note-div p{
+	font-size: 15px;
 }
 .grid-note-preview{
 	grid-column-start: 5;
